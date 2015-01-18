@@ -21,6 +21,10 @@ body {
 .visuallyHidden {visibility: hidden;
 
 }
+a {
+	color: #dd2d43;
+	text-decoration: none;
+}
 nav ul {
 	list-style: none;
 	margin-left:0 auto;
@@ -38,9 +42,67 @@ nav a {
 	border-bottom: 1px solid #cecece;
 	text-align: center;
 
+
 }
+
 nav li:first-child a{
 	border-top: 1px solid #cecece;}
+
+	h2, h3, h4 { font-family: "Merriweather Sans", sans-serif
+}
+h2{ font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.wrapper { 
+		width:90%;
+		margin: 0 auto;
+
+}
+.search {
+	background-color: #edeced;
+	border-radius: 2px;
+	padding: 3%;
+	min-height: 100%;
+}
+.searchBox{ 
+			width:280;
+	border-radius: 5px;
+	border-color: lightgray;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	box-shadow: inset 2px 2px 2px 0px #dddddd;
+  	resize: none;
+	padding: 2% 58% 2% 2%;
+}
+
+
+
+.searchButton{
+			width:280;
+	background-color: #db2c42;
+	border-radius: 5px;
+	padding: 2% 58% 2% 2%;
+	color: #fff;	
+	display: block;
+	margin-top: 2%;
+	text-align: center;
+	font-size: 14px;
+
+
+}
+a:hover{
+	color: #047ea2;
+}
+.membershipForm{background-color: #edeced;
+	border-radius: 2px;
+	padding: 3%;
+	min-height: 100%;
+
+}
+
+
+
 	
 
 
